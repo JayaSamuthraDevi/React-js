@@ -8,11 +8,12 @@ function App() {
   <>
  
 
-  
-<SideNavBar />
-<Document_Section />
-<Query_Section />
+  <div className="row m-0"> 
 
+    <div className="col-2 p-0" style={{width: '282px'}}>   <SideNavBar /></div> 
+    <div className="col-7  p-0 m-0">   <Document_Section /></div> 
+      <div className="col-3 p-0 m-2" style={{min_width: '358px'}}>  <Query_Section /></div> 
+</div>
   </>
   );
 }

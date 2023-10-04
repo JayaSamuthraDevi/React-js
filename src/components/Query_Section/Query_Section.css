@@ -1,74 +1,59 @@
 .query_Section{
-    position: absolute;
-    top:    0px;
-    right:0px;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    /* width: 563px; */
-    min-width: 603px;
-   
-    flex-shrink: 1;
-    background: rgba(247, 249, 251, 1);
-
 }
 .query_Section h2 {
-    color: var(--black-100, var(--black-100, #1C1C1C));
-font-feature-settings: 'cv11' on, 'cv01' on, 'ss01' on;
+  color:  #1c1c1c;
 
-/* 18 Semibold */
-font-family: 'Inter';
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px; /* 155.556% */
-margin:  16px 138px 856px 24px ;
-position:relative;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.query_Section p {
+  max-width: 400px;
+  padding: 16.2px 16px 17.8px;
+  background: #f0f8ff;
+  border-radius: 10px;
+}
+.msg-area{
+    min-height:800px;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.input-outer-box {
+  background-color:#fff;
+ width: 450px;
+  height: 62px;
+  position: relative;
+}
+
+.input-box {
+  padding: 5px;
+  background-color: rgb(247, 245, 245);
+  border: none;
+  border-radius: 16px;
+  padding: 15px;
+  font-size: medium;
+  text-align: left;
+   height: auto;
+  position: absolute;
+  inset:5px;
+  cursor: pointer;
 
 }
 
-.query_Section p{
-    max-width: 400px;
-    padding:16.2px  16px 17.8px;
-    background: #F0F8FF;
-    position: relative;
-    top:-820px;
-    margin-left: 24px;
-    border-radius: 10px;
+.input-btn {
+    position: absolute;
+  inset:7px 0.5rem 0rem auto;
+  width: 49px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(129deg, #ff2e00 0%, #b633b8 40.1%, #3d22de 100%);
+  box-shadow: 0px 4px 14px 0px rgba(182, 169, 169, 0.16);
 }
 
-.input-outer-div {
-    background-color: #fff;
-    width: 100%;
-    height: 52px;
+.input-btn img {
+    position: absolute;
+    inset:7px 0.7rem 0rem auto;
+    z-index: 1;
 }
-
-.input-box{
-    width: 580px;
-    height: 52px;
-    padding: 5px;
-    background-color: rgba(236, 237, 238, 0.969);
-    border: none;
-    border-radius: 16px;
-    position: relative;
-    top:-100px;
-    padding:15px;
-    font-size: medium;
-    text-align:left;
-}
-
-.input-btn{
-    width: 49px;
-height: 44px;
-flex-shrink: 0;
-    border-radius: 12px;
-    background: linear-gradient(129deg, #FF2E00 0%, #B633B8 40.1%, #3D22DE 100%);
-    box-shadow: 0px 4px 14px 0px rgba(182, 169, 169, 0.16);
-position: relative;
-top:-148px;
-right:-527px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-

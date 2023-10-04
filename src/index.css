@@ -1,13 +1,11 @@
 *{
   padding: 0;
   margin: 0;
+  font-family:'Inter',sans-serif;
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  font-family:'Inter',
-    sans-serif;
-    display: flex;
-    flex-direction: row;
-    
-}
+/* body {
+ margin: 0;
+ padding: 0;  
+ box-sizing: border-box; 
+} */

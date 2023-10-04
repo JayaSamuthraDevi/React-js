@@ -1,164 +1,98 @@
-.container
+.doc_container
 {
-    position: absolute;
-    top:0px;
-    left:282px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* max-width: 800px; */
-    width: auto;
-    height: 100vh;
-    padding: 38px 21px 365px;
-    background: #F6FBFF;
-    flex-shrink: 1;
-    gap:50px
+    height: 100%;
+background-color:rgba(246, 251, 255, 1);
+}
+
+.doc-header h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  padding-top: 38px;
+}
+
+.doc-header p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.54;
+  margin: 0px 80px;
+}
+
+.upload-box {
+  border-radius: 16px;
+  background: #fff;
+
+  margin: 26px 24px 24px 24px;
+}
+
+.upload-area {
+  padding: 16px 24px 16px 32px;
+  margin: 26px 24px;
+  gap: 24px;
+  border-radius: 10px;
+  border: 1px dashed rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 
 }
 
-.doc-header h1{
-    
-    color: var(--black-100, var(--black-100, #1C1C1C));
-    text-align: center;
-    font-feature-settings: 'cv11' on, 'cv01' on, 'ss01' on;
-    
-    /* 48 Semibold */
-    font-family: 'Inter';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 58px; /* 120.833% */
+.upload-area img {
+  width: 48px;
+  height: 48px;
 }
-.doc-header p{
-    max-width: 922px;
-    color: #000;
-    text-align: center;
-    font-feature-settings: 'cv11' on, 'cv01' on, 'ss01' on;
-    font-family: 'Inter';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px; /* 150% */
-    padding: 8px;
-    
-}
-
-.upload-box{
-    max-width: 858px;
-height: auto;
-    border-radius: 16px;
-background: #FFF;
-display: flex;
-flex-direction: column;
-position: relative;
-left:10px;
-
-margin: 26px 24px 24px 24px;
-/* margin-top:190px ; */
-
-}
-
-.upload-area{
-    display: flex;
-    flex-direction: row;
-max-width: 810px;
-padding: 16px 24px 16px 32px;
-margin: 26px 24px  ;
-justify-content: center;
-align-items: center;
-gap: 24px;
-border-radius: 10px;
-border: 1px dashed rgba(0, 0, 0, 0.25);
-background: #FFF;
-
-}
-
-.upload-area img{
-    width: 48px;
-    height: 48px;
-}
-.upload-file-rigt-part{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    gap: 228px;
-}
-
 .upload-file-placeholderText {
-    display: flex;
-    max-width: 710px;
-    flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 2px;
-flex: 1 0 0;
+  row-gap: 12px;
 }
-
-.upload-file-placeholderText h6{
-    align-self: stretch;
-    color: #000;
-font-family: 'Inter';
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.upload-file-placeholderText h6 {
+  font-size: 13px;
 }
 .upload-file-placeholderText p {
-
-
-color: rgba(0, 0, 0, 0.40);
-font-family: 'Inter';
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
 }
 
-.upload-file-rigt-part input {
-    display: none;
-    max-width: 710px;
+.file-input input {
+  display: none;
 }
 
-.upload-file-rigt-part h5 {
-    border-radius: 5px;
-    border: 1px solid rgba(61, 34, 222, 0.70);
-    background: #FBFDFE;
-    padding: 12px 16px ;
+.file-input h5 {
+  border-radius: 5px;
+  
+  border: 1px solid rgba(61, 34, 222, 0.7);
+  background: #fbfdfe;
+  padding: 12px 16px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
+
 .fileContainer {
-    display: flex;
-    flex-direction: row;
-    max-width: 493px;
-    height: auto;
-    padding: 16px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(250, 250, 250, 1);
-    margin: 5px;
-  }
-  .fileContainer img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .fileContainer h6 {
-    color: #000;
-    font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
-    font-family: "Inter";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px; /* 125% */
-  }
-  .fileContainer p {
-    color: #888;
-    font-family: "Inter";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
+  max-width: 60%;
+  height: auto;
 
+  padding: 16px;
+  background-color: rgba(250, 250, 250, 1);
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+.fileContainer .file-left img {
+  width: 24px;
+  height: 24px;
+}
 
+.fileContainer h6 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.fileContainer p {
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+}
 
+.file-left {
+  row-gap: 0px;
+}
