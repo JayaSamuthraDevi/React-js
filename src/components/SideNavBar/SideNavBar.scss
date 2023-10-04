@@ -1,6 +1,19 @@
+@import "./../../variables/Variable.scss";
+
+.side {
+  border-right: $borderline-right;
+
+}
+
 .sideNavbar {
 
-  background: #FFF;
+  background: $white;
+  font-weight: 600;
+
+  //common
+  p {
+    font-size: $font-para;
+  }
 
   .logo {
     gap: 15.57px;
@@ -12,7 +25,7 @@
     }
 
     span {
-      color: #1c1c1c;
+      color: $black;
       font-size: 28px;
       font-weight: 600;
     }
@@ -21,7 +34,6 @@
   // side-heading
   .side-heading {
     font-size: 18px;
-    font-weight: 600;
   }
 
   // demo-buttons
@@ -31,17 +43,12 @@
 
   .demo-list li {
     width: 242px;
-    display: flex;
     padding: 12px;
-    align-items: center;
     gap: 10px;
     border-radius: 15px;
 
     p {
-      color: var(--noble-black-0, #fff);
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 14px;
+      color: $white;
       letter-spacing: 0.15px;
       padding: 2px;
       margin: 0px;
@@ -74,7 +81,6 @@
   .history-record {
 
     padding: 12px;
-    padding-bottom: 0px;
     gap: 12px;
 
     img {
@@ -83,7 +89,6 @@
     }
 
     p {
-      font-size: 14px;
       font-weight: 400;
       text-align: center;
     }
@@ -92,14 +97,11 @@
 
   /* feature */
 
-  .feature-btn-container ul {
-
-    gap: 4px;
-    padding: 20px;
+  .feature-btn-container ul{
+    padding: 12px;
 
     li {
       padding: 12px;
-      display: flex;
       gap: 12px;
       cursor: pointer;
     }
@@ -110,10 +112,8 @@
     }
 
     p {
-      color: #1c1c1c;
-      font-size: 14px;
+      color: $black;
       font-weight: 400;
-      line-height: 20px;
     }
   }
 

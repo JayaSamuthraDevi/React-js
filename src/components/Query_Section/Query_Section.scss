@@ -1,5 +1,6 @@
+@import "./../../variables/Variable.scss";
 .query_Section h2 {
-  color: #1c1c1c;
+  color:$black;
   font-size: 1.5rem;
 }
 
@@ -13,20 +14,20 @@
   .msg-box {
     max-width: 408px;
     padding: 16.2px 16px 17.8px;
-    background: #f0f8ff;
+    background: $std-bg-blue;
     border-radius: 10px;
   }
 }
 
 .input-outer-box {
-  background-color: #fff;
+  background-color:$white;
   height: 62px;
   position: relative;
 
 
   .input-box {
     padding: 5px;
-    background-color: rgb(247, 245, 245);
+    background-color:$input-box-color;
     border: none;
     border-radius: 16px;
     padding: 15px;
@@ -44,7 +45,7 @@
     width: 49px;
     height: 44px;
     border-radius: 12px;
-    background: linear-gradient(129deg, #ff2e00 0%, #b633b8 40.1%, #3d22de 100%);
+    background:$btn-color;
     box-shadow: 0px 4px 14px 0px rgba(182, 169, 169, 0.16);
 
     img {

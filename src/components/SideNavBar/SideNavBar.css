@@ -1,7 +1,15 @@
+.side {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .sideNavbar {
-  background: #FFF;
+  background: #fff;
+  font-weight: 600;
   /* history */
   /* feature */
+}
+.sideNavbar p {
+  font-size: 14px;
 }
 .sideNavbar .logo {
   gap: 15.57px;
@@ -18,24 +26,18 @@
 }
 .sideNavbar .side-heading {
   font-size: 18px;
-  font-weight: 600;
 }
 .sideNavbar .sidebar-buttons ul {
   gap: 10px;
 }
 .sideNavbar .demo-list li {
   width: 242px;
-  display: flex;
   padding: 12px;
-  align-items: center;
   gap: 10px;
   border-radius: 15px;
 }
 .sideNavbar .demo-list li p {
-  color: var(--noble-black-0, #fff);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 14px;
+  color: #fff;
   letter-spacing: 0.15px;
   padding: 2px;
   margin: 0px;
@@ -58,7 +60,6 @@
 }
 .sideNavbar .history-record {
   padding: 12px;
-  padding-bottom: 0px;
   gap: 12px;
 }
 .sideNavbar .history-record img {
@@ -66,17 +67,14 @@
   height: 24px;
 }
 .sideNavbar .history-record p {
-  font-size: 14px;
   font-weight: 400;
   text-align: center;
 }
 .sideNavbar .feature-btn-container ul {
-  gap: 4px;
-  padding: 20px;
+  padding: 12px;
 }
 .sideNavbar .feature-btn-container ul li {
   padding: 12px;
-  display: flex;
   gap: 12px;
   cursor: pointer;
 }
@@ -86,7 +84,5 @@
 }
 .sideNavbar .feature-btn-container ul p {
   color: #1c1c1c;
-  font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
 }/*# sourceMappingURL=SideNavBar.css.map */

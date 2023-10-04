@@ -19,22 +19,22 @@ function SideNavBar() {
 
        
         <ul className="demo-list list-group ">
-          <li >
+          <li className="d-flex">
             <img src={Icons.pdf_icon} />
             <p>PDFChatBot</p>
           </li>
-          <li>
+          <li className="d-flex">
             <img src={Icons.text_icon} alt="" />
             <p>Text ProductDescriber</p>
           </li>
-          <li>
+          <li className="d-flex">
             <img src={Icons.image_icon} alt="" />
             <p>Image ProductDescriber</p>
           </li>
         </ul>
 </div>
 <hr className="line-2" />
-        <div className="history-constainer d-flex flex-column p-4 m-0 pt-1">
+        <div className="history-constainer d-flex flex-column p-4 m-0 pt-1 ">
           <span className="side-heading">History</span>
           <ul className="list-group">
             {Histories.map((history) => (
@@ -47,25 +47,25 @@ function SideNavBar() {
           </ul>
         </div>
 <hr className="line-1 m-0"/>
-        <div className="feature-btn-container d-flex flex-column p-0 m-0 algin-items-center">
-          <ul>
-            <li>
+        <div className="feature-btn-container d-flex flex-column p-0 m-0 ">
+          <ul className="list-group " >
+            <li className="d-flex"> 
               <img src={Icons.delete_icon} alt="" />
               <p>Clear Conversations</p>
             </li>
-            <li>
+            <li className="d-flex">
               <img src={Icons.light_mode_icon} alt="" />
               <p>Light Mode</p>
             </li>
-            <li>
+            <li className="d-flex">
               <img src={Icons.account_icon} alt="" />
               <p>My Account</p>
             </li>
-            <li>
+            <li className="d-flex">
               <img src={Icons.updates_icon} alt="" />
               <p>Updates & FAQ</p>
             </li>
-            <li>
+            <li className="d-flex">
               <img src={Icons.logout_icon} alt="" />
               <p>Log out</p>
             </li>
