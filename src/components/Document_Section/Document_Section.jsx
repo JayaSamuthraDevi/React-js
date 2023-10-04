@@ -1,5 +1,5 @@
 import React from "react";
-import "./Document_Section.css";
+import "./Document_Section.scss";
 import Icons from "./../../assets/icons/Icons";
 import DisplayFiles from "./Display_Doc";
 
@@ -17,7 +17,7 @@ function Document_Section() {
         </div>
 
         <div className="upload-box d-flex flex-column">
-          <div className=" upload-area m-4 row">
+          <div className=" upload-area m-4 row align-items-center">
             <img
               src={Icons.upload_cloud_icon}
               alt="upload-file-icon"
@@ -30,7 +30,7 @@ function Document_Section() {
               </p>
             </div>
 
-            <div className="file-input col-auto">
+            <div className="file-input col-auto ">
               <label htmlFor="file">
                 <h5>SELECT FILE</h5>
               </label>

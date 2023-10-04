@@ -1,5 +1,4 @@
 import Icons from "../../assets/icons/Icons";
-import "./Document_Section.css";
 
 
 let files = [];

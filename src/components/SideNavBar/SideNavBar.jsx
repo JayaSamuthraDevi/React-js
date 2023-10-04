@@ -1,5 +1,5 @@
 import React from "react";
-import "./SideNavBar.css";
+import "./SideNavBar.scss";
 import Icons from "./../../assets/icons/Icons";
 import Button from "./Button";
 import Histories from "./../../constants/History.json";
@@ -9,7 +9,7 @@ function SideNavBar() {
   return (
     <>
       <div className="sideNavbar d-flex flex-column p-0 m-0">
-        <div className="logo">
+        <div className="logo d-flex">
           <img src={Icons.vector} alt="" />
           <span> Divum AI </span>
         </div>
@@ -18,8 +18,8 @@ function SideNavBar() {
         <span className="side-heading">Demos</span>
 
        
-        <ul className="demo-list list-group">
-          <li>
+        <ul className="demo-list list-group ">
+          <li >
             <img src={Icons.pdf_icon} />
             <p>PDFChatBot</p>
           </li>
